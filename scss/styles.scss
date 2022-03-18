@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixins";
+
+
+#nav-principal {
+    background: $deepRed;
+
+    ul {
+        width: 100%;
+    }
+
+    li {
+        float: left;
+        width: (100% / 5);
+    }
+
+    a {
+        color: $almostWhite;
+        text-orientation: none;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        text-align: center;
+        &:hover {
+            background: lighten($deepRed,5);
+        }
+    }
+
+    @include clearFix;
+}

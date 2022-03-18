@@ -1,0 +1,26 @@
+#nav-principal {
+  background: #86042d;
+}
+#nav-principal ul {
+  width: 100%;
+}
+#nav-principal li {
+  float: left;
+  width: 20%;
+}
+#nav-principal a {
+  color: #f8f9fb;
+  text-orientation: none;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+#nav-principal a:hover {
+  background: #9f0535;
+}
+#nav-principal::after {
+  content: "";
+  display: block;
+  clear: both;
+}
