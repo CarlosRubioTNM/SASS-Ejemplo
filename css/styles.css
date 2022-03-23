@@ -39,6 +39,11 @@ li {
   float: left;
   width: 20%;
 }
+@media screen and (max-width: 600px) {
+  #nav-principal li {
+    width: 100%;
+  }
+}
 #nav-principal a {
   color: #f8f9fb;
   text-orientation: none;
@@ -150,9 +155,12 @@ section h1 {
 
 #clientes li {
   float: left;
-  width: 18.4%;
+  width: 15%;
   margin-right: 2%;
   margin-bottom: 2%;
+}
+#clientes li:nth-child(6n) {
+  margin-right: 0;
 }
 #clientes li img {
   width: 100%;
